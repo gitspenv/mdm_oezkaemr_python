@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Luftemissionskonten der Haushalte und der Wirtschaft</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+    <style>
+        .info {
+            display: inline-block;
+            border: 1px solid black;
+            padding: 10px 20px;
+            cursor: help;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Luftemissionskonten der Haushalte und der Wirtschaft</h1>
+        <p>Bitte alle Parameter eingeben und Enter drucken</p>
+        <div class="form-group">
+            <label for="masseinheitInput">Masseinheit:</label>
+            <select class="form-control" id="masseinheitInput">
+            </select>
+            
+            <label for="kategorieInput">Kategorie:</label>
+            <select class="form-control" id="kategorieInput">
+            </select>
+            
+            <label for="gasInput">Gas:</label>
+            <select class="form-control" id="gasInput">
+            </select>
+            
+            <label for="jahrInput">Start Jahr:</label>
+            <select class="form-control" id="jahrInput">
+            </select>
+            
+            <button id="submitButton" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
